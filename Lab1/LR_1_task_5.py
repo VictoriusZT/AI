@@ -100,7 +100,7 @@ FS = f1_score(df.actual_label.values, df.predicted_RF.values)
 print(FS)
 
 
-#Визначимо власну функцію, яка дублює f1_score, використовуючи формулу вище.
+# Визначимо власну функцію, яка дублює f1_score, використовуючи формулу вище.
 def firsanov_f1_score(y_true, y_pred):
     # calculates the F1 score
     recall = firsanov_recall_score(y_true,y_pred)

@@ -25,7 +25,7 @@ y_test_pred = classifier_new.predict(X_test)
 # Обчислення якості класифікатора
 accuracy = 100.0 * (y_test == y_test_pred).sum() / X_test.shape[0]
 
-#accuracy = 100.0 * (y == y_pred).sum() / X.shape[0]
+# accuracy = 100.0 * (y == y_pred).sum() / X.shape[0]
 print("Accuracy of the new classifier =", round(accuracy, 2), "%")
 
 # Візуалізація результатів роботи класифікатора
